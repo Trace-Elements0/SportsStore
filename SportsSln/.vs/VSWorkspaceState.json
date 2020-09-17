@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\SportsStore",
+    "\\SportsStore.Tests",
+    "\\SportsStore.Tests\\bin",
+    "\\SportsStore.Tests\\obj",
+    "\\SportsStore.Tests\\obj\\Debug",
+    "\\SportsStore.Tests\\obj\\Debug\\netcoreapp3.1",
+    "\\SportsStore.Tests\\obj\\Release",
+    "\\SportsStore.Tests\\obj\\Release\\netcoreapp3.1",
+    "\\SportsStore\\Views"
+  ],
+  "SelectedNode": "\\SportsStore.Tests\\SportsStore.Tests.csproj",
+  "PreviewInSolutionExplorer": false
+}
