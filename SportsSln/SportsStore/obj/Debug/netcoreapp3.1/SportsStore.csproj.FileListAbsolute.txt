@@ -160,3 +160,5 @@ C:\Users\jorge\repos\SportsStore\SportsSln\SportsStore\obj\Debug\netcoreapp3.1\S
 C:\Users\jorge\repos\SportsStore\SportsSln\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.genruntimeconfig.cache
 C:\Users\jorge\repos\SportsStore\SportsSln\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.csproj.CoreCompileInputs.cache
 C:\Users\jorge\repos\SportsStore\SportsSln\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jorge\repos\SportsStore\SportsSln\SportsStore\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\jorge\repos\SportsStore\SportsSln\SportsStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\CartSummary\Default.cshtml.g.cs

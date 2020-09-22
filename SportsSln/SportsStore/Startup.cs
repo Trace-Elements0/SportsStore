@@ -10,29 +10,28 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 using SportsStore.Models;
-
-
 namespace SportsStore
 {
     public class Startup
     {
-        private IConfiguration Configuration { get; set; }
-
         public Startup(IConfiguration config)
         {
-            this.Configuration = config;
+            Configuration = config;
         }
+        private IConfiguration Configuration { get; set; }
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<StoreDbContext>(opts =>
-            {
-                opts.UseSqlServer(Configuration["ConnectionStrings:SportsStoreConnection"]);
+            services.AddDbContext<StoreDbContext>(opts => {
+                opts.UseSqlServer(
+                    Configuration["ConnectionStrings:SportsStoreConnection"]);
             });
             services.AddScoped<IStoreRepository, EFStoreRepository>();
             services.AddRazorPages();
             services.AddDistributedMemoryCache();
             services.AddSession();
+            services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
         }
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
