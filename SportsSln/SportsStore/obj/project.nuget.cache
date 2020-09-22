@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "gV+UwgyhV6FXtuVfOgZK+ceh0kS0SAzRyNRzcw8z1S8EisXSlpOMh2hrRmv8S4nW7he2GWKCmoRSGrXXOC6gMA==",
+  "dgSpecHash": "SDx/TJBDmlWwkuRcbhOIu+l/FE+GQgcJ3HK5EF/UWfkkKwNGMADD7v+S1g6W3W8AgV7zzMLsCSP47D3skYPCzQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jorge\\source\\repos\\SportsSln\\SportsStore\\SportsStore.csproj",
+  "projectFilePath": "C:\\Users\\jorge\\repos\\SportsStore\\SportsSln\\SportsStore\\SportsStore.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jorge\\.nuget\\packages\\bootstrap\\4.5.2\\bootstrap.4.5.2.nupkg.sha512",
+    "C:\\Users\\jorge\\.nuget\\packages\\jquery\\3.0.0\\jquery.3.0.0.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -35,6 +37,7 @@
     "C:\\Users\\jorge\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\jorge\\.nuget\\packages\\popper.js\\1.16.1\\popper.js.1.16.1.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
