@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jorge\\repos\\SportsStore\\SportsSln\\SportsStore\\SportsStore.csproj": {}
+    "C:\\Users\\jorge\\repos\\SportsStores\\SportsStore\\SportsSln\\SportsStore\\SportsStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jorge\\repos\\SportsStore\\SportsSln\\SportsStore\\SportsStore.csproj": {
+    "C:\\Users\\jorge\\repos\\SportsStores\\SportsStore\\SportsSln\\SportsStore\\SportsStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jorge\\repos\\SportsStore\\SportsSln\\SportsStore\\SportsStore.csproj",
+        "projectUniqueName": "C:\\Users\\jorge\\repos\\SportsStores\\SportsStore\\SportsSln\\SportsStore\\SportsStore.csproj",
         "projectName": "SportsStore",
-        "projectPath": "C:\\Users\\jorge\\repos\\SportsStore\\SportsSln\\SportsStore\\SportsStore.csproj",
+        "projectPath": "C:\\Users\\jorge\\repos\\SportsStores\\SportsStore\\SportsSln\\SportsStore\\SportsStore.csproj",
         "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jorge\\repos\\SportsStore\\SportsSln\\SportsStore\\obj\\",
+        "outputPath": "C:\\Users\\jorge\\repos\\SportsStores\\SportsStore\\SportsSln\\SportsStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jorge\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -47,6 +51,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
             },
             "bootstrap": {
               "target": "Package",
